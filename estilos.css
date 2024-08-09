@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+[data-bs-theme=dark].navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5 ease;
+    padding: 30px;
+
+  
+}
+.navbar-brand{
+    font-size: 80px;
+    color: #ffffff;
+    background: none;
+    font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    margin: 5px;
+    margin-top: 10px;
+    background:none;
+
+}
+.nav-item a{
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    
+}
+.nav-item a:hover{
+    background: #be6f6f;
+    color: #000;
+    border-radius: 15px;
+}
+.nav-item a:active{
+    background: rgb(156, 148, 148);
+}
+.título1 {
+    font-size: 2.5rem;
+    color:#7c2424;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+
+.tisubtulos {
+    font-size: 2rem;
+    color: rgb(88, 51, 17);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.subtítulos {
+    font-size: 1.5rem;
+    color: rgb(88, 51, 17);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.parrafos {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color:#000;
+    font-family:'Times New Roman', Times, serif;
+    text-indent: 10px;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.table{
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(99, 17, 17);
+    border-color: #000;
+
+
+}
+#encabezado1,#encabezado2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(99, 17, 17);
+    text-transform: capitalize;
+    text-align: center;
+}
+.año1, #año2, .año3, #año4, .año5, #año6, .año7{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.parra1, .parra3, .parra5, .parra7{
+    font-size: 17px;
+    text-indent: 12px;
+    text-indent: 10px;
+    color: rgb(0, 0, 0);
+}
+#parra2, #parra4, #parra6{
+    font-size: 17px;
+    text-indent: 12px;
+    color: rgb(0, 0, 0);
+}
+
+
